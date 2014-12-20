@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+	margin: 10px auto 10px auto;
+	border-radius: 5px;
+	width: 500px;
+	height: 80px;
+	text-align: center;
+	font-size: 36px;
+	line-height: 80px;
+}
+
+#color, #settings {
+	height: 50px;
+}
+
+#color {
+	float: left;
+	margin: 10px 0 10px 100px;
+}
+
+#settings {
+	float: right;
+	margin: 10px 100px 10px 0;
+}
+
+.button, .button_special {
+	border-radius: 5px;
+	background: #0cfcc0;
+	border: 1px solid black;
+	display: inline;
+	width: 100px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.selected {
+	border: 3px solid #000000;
+	border-radius: 5px;
+}
+
+#container {
+    margin: auto;
+    border: 2px solid black;
+    width: 960px;
+    height: 960px;
+    clear: both;
+}
+
+.red_square,.square {
+	float: left;
+}
+
+.red_square {
+	background: #ff0000;
+}
+
+
