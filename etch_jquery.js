@@ -46,6 +46,7 @@ function colorButtons() {
 			$(this).css({'background':'rgb('+r+','+g+','+b+')'});
 		});
 	});
+
 }
 
 function settingsButtons() {		
